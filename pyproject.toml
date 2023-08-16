@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "docker-mongodb"
+version = "0.1.0"
+description = ""
+authors = ["Roman <maks3564195@gmail.com>"]
+readme = "README.md"
+packages = [{include = "docker_mongodb"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
